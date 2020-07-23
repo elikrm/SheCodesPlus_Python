@@ -34,13 +34,15 @@ mailing_list = [
 ]
 for item in mailing_list:
     print("{} : {}".format(item[0],item[1]))
+    
+###########Q3#####################
 nameList = []
 for i in range(3):
     enterName =input("enter a name: ")
     nameList.append(enterName)
 print(nameList)
 
-###########Q3#####################
+###########Q4#####################
 yourlist = input("Enter a sentence: ")
 wordlist = yourlist.split()
 print(len(wordlist),wordlist)
