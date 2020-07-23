@@ -22,6 +22,12 @@ elif(moths_in_house and not mitch_is_home):
 elif(not moths_in_house and mitch_is_home):
     print("Climb on Mitch.")
 ############ Q3 ####################
+light_colour = "Red"
+car_detected = True
+if ((light_colour == "Red")and car_detected):
+    print("flash !!!!!!!")
+else:
+    print("Do Nothing")
 ############ Q4 ####################
 height = int(input("Enter your height "))
 if(height >= 120):
